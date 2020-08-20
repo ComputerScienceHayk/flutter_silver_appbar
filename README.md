@@ -1,6 +1,6 @@
 # Silver App Bar
 
-![img alt]("https://github.com/ComputerScienceHayk/flutter_silver_appbar/blob/master/screen.gif")
+![img alt](https://github.com/ComputerScienceHayk/flutter_silver_appbar/blob/master/screen.gif)
 
 ```
 CustomScrollView(
