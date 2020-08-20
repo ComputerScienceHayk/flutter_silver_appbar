@@ -1,4 +1,33 @@
-# open_container
+# Silver App Bar
+
+![img alt]("https://github.com/ComputerScienceHayk/flutter_silver_appbar/blob/master/screen.gif")
+
+```
+CustomScrollView(
+        slivers: <Widget>[
+          const SliverAppBar(
+            backgroundColor: Colors.lightBlueAccent,
+            pinned: true,
+            expandedHeight: 250.0,
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text('Demo AppBar'),
+            ),
+          ),
+          SliverFixedExtentList(
+              itemExtent: 400.0,
+              delegate: SliverChildBuilderDelegate(
+                (BuildContext context, int index) {
+                  return  Container(
+                    height: 400.0,
+                    color: Colors.white,
+                    child: Center(child: Text("Content", style: TextStyle(decorationStyle: TextDecorationStyle.solid),)),
+                  );
+                },
+              )
+          ),
+        ],
+      ),
+```
 
 A new Flutter application.
 
